@@ -23,8 +23,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=dotnetgithubactionsorg
-            -Dsonar.projectKey=dotnetgithubactionsproject
+            -Dsonar.organization=DEVSECO
+            -Dsonar.projectKey=devseco
 
   security:
     runs-on: ubuntu-latest
