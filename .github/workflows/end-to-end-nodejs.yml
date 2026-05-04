@@ -21,7 +21,7 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
         args: >
-          -Dsonar.organization=devseco
+          -Dsonar.organization=githubactionorg
           -Dsonar.projectKey=simple-git-action
 
   security:
