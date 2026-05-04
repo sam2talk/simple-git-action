@@ -1,5 +1,4 @@
 name: DevSecOps Pipeline (NodeJS) Application
-
 on: push
 
 jobs:
